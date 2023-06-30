@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react';
 
 
 function App() {
-const db = "http://localhost:8000/contents"
+// const db = "http://localhost:8000/contents"
+const db =  "http://13.233.145.214:8000/contents"
 const [items, setItems] = useState([])
 const [hasMore, sethasMore] = useState(true);
 
