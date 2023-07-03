@@ -33,7 +33,7 @@ const getContentsfetch = async ()=>{
 return data
 }
 
-// console.log(items)
+
 const fetchData= async()=>{
 const conentfromserver = await getContentsfetch()
 setItems([...items,...conentfromserver])
